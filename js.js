@@ -42,7 +42,7 @@ yellow.addEventListener('click', () => {
 
 
 del.addEventListener('click', () => {
-    body.style.background = 'white'
+    body.style.background = 'none'
 })
 
 
@@ -60,7 +60,7 @@ for (let i = 0; i < items.length; i++) {
         items[i].style.background = 'yellow'
     })
     delItem.addEventListener('click', () => {
-        items[i].style.background = 'white'
+        items[i].style.background = 'none'
     })
 }
 
